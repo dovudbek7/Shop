@@ -1,38 +1,35 @@
 let swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-      el: '.swiper-pagination',
-      clickable:true,
-      dynamicBullets:true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    mousewheel: true,
-    keyboard: true,
-    scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-      loop:true,
-    grabCursor:true,
-    spaceBetween:20,
+  // spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    // clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  slidesPerView: 4,
     
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    // breakpoints: {
-    //     0: {
-    //         slidesPerView: 1,
-    //     },
-    //     100 : {
-    //         slidesPerView: 2,
-    //     },
-    //     991: {
-    //         slidesPerView: 3,
-    //     },
-    // },
-  });
-  
+      
+});
+let swiper2 = new Swiper(".mySwiper2", {
+  spaceBetween: 30,
+  // centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    // clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

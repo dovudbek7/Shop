@@ -1,135 +1,456 @@
-@media screen and (max-width: 1250px){
-    .wrapper nav{
-      max-width: 100%;
-      padding: 0 20px;
-    }
-    nav .content .links{
-      margin-left: 30px;
-    }
-    .content .links li a{
-      padding: 8px 13px;
-    }
-    .wrapper .search-box{
-      max-width: calc(100% - 100px);
-    }
-    .wrapper .search-box input{
-      padding: 0 100px 0 15px;
-    }
+@media screen and (max-width: 1250px) {
+  .wrapper nav {
+    max-width: 100%;
+    padding: 0 20px;
   }
 
+  nav .content .links {
+    margin-left: 30px;
+  }
 
+  .content .links li a {
+    padding: 8px 13px;
+  }
 
+  .wrapper .search-box {
+    max-width: calc(100% - 100px);
+  }
 
-  @media screen and (max-width: 900px){
-    .wrapper .menu-icon{
-      display: block;
-    }
-    .wrapper #show-menu:checked ~ .menu-icon i::before{
-      content: "\f00d";
-    }
-    nav .content .links{
-      display: block;
-      position: fixed;
-      background: #14181f;
-      height: 100%;
-      width: 100%;
-      top: 70px;
-      left: -100%;
-      margin-left: 0;
-      max-width: 350px;
-      overflow-y: auto;
-      padding-bottom: 100px;
-      transition: all 0.3s ease;
-    }
-    nav #show-menu:checked ~ .content .links{
-      left: 0%;
-    }
-    .content .links li{
-      margin: 15px 20px;
-    }
-    .content .links li a,
-    .content .links li label{
-      line-height: 40px;
-      font-size: 20px;
-      display: block;
-      padding: 8px 18px;
-      cursor: pointer;
-    }
-    .content .links li a.desktop-link{
-      display: none;
-    }
-  
-    .content .links ul,
-    .content .links ul ul{
-      position: static;
-      opacity: 1;
-      visibility: visible;
-      background: none;
-      max-height: 0px;
-      overflow: hidden;
-    }
-    .content .links #show-features:checked ~ ul,
-    .content .links #show-services:checked ~ ul,
-    .content .links #show-items:checked ~ ul{
-      max-height: 100vh;
-    }
-    .content .links ul li{
-      margin: 7px 20px;
-    }
-    .content .links ul li a{
-      font-size: 18px;
-      line-height: 30px;
-      border-radius: 5px!important;
-    }
+  .wrapper .search-box input {
+    padding: 0 100px 0 15px;
+  }
 
-    .canon{
-        margin-left: 15%;
-    }
-    .canon_img img{
-        width: 80%;
-    }
-    .canon_p button{
-        width: 80%;
-        margin-bottom: 20px;
-    }
+  .canon_p {
+    margin-right: 20%;
+  }
 
+  .card1 {
+    display: none;
+  }
 
+  .popular_products {
+    display: block;
+  }
+
+  .product1 {
+    display: none;
+  }
+
+  .sale img {
+    width: 90%;
+    height: 300px;
+  }
+
+  .laptop_sale {
+    margin-top: -270px;
+    margin-left: 0%;
+  }
+
+  .sale button,
+  input {
+    width: 20%;
+  }
+
+  .deep_bass {
+    display: block;
+  }
+
+  .deep_swip {
+    width: 95%;
+    height: 480px;
+
+  }
+
+  .deep_game {
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .free_delivery{
+    display: block;
+    height: 400px;
+    padding-top:10px;
   }
   
-  @media screen and (max-width: 720px){
-    .canon{
-        display: block;
-    }
-    .canon_img img{
-        width: 70%;
-        margin-left: 10%;
-    }
-    .swiper-button-prev, .swiper-rtl .swiper-button-next ,.swiper-button-next, .swiper-rtl .swiper-button-prev{
-        display: hidden;
-    }
+  .delivery img{
+    width: 70px;
+    height: 70px;
+   }
+   .space{
+    height: 250px;
+  }
+  .produce_card{
+    display: block;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .produce_p{
+    width: 90%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .wrapper .menu-icon {
+    display: block;
   }
 
+  .wrapper #show-menu:checked~.menu-icon i::before {
+    content: "\f00d";
+  }
+
+  nav .content .links {
+    display: block;
+    position: fixed;
+    background: #14181f;
+    height: 100%;
+    width: 100%;
+    top: 70px;
+    left: -100%;
+    margin-left: 0;
+    max-width: 350px;
+    overflow-y: auto;
+    padding-bottom: 100px;
+    transition: all 0.3s ease;
+  }
+
+  nav #show-menu:checked~.content .links {
+    left: 0%;
+  }
+
+  .content .links li {
+    margin: 15px 20px;
+  }
+
+  .content .links li a,
+  .content .links li label {
+    line-height: 40px;
+    font-size: 20px;
+    display: block;
+    padding: 8px 18px;
+    cursor: pointer;
+  }
+
+  .content .links li a.desktop-link {
+    display: none;
+  }
+
+  .content .links ul,
+  .content .links ul ul {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    background: none;
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .content .links #show-features:checked~ul,
+  .content .links #show-services:checked~ul,
+  .content .links #show-items:checked~ul {
+    max-height: 100vh;
+  }
+
+  .content .links ul li {
+    margin: 7px 20px;
+  }
+
+  .content .links ul li a {
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 5px !important;
+  }
+
+  .canon_btn {
+    width: 100%;
+  }
+
+  .canon_btn button:nth-child(1),
+  .canon_btn button:nth-child(2) {
+    width: 250px;
+  }
+
+  .canon_p {
+    margin-left: 10%;
+  }
+
+  .canon {
+    display: block;
+    margin-top: -50px;
+  }
+
+  .canon_img img {
+    width: 200px;
+  }
+
+  .canon_p {
+    margin-right: 10%;
+  }
+
+  .product2 {
+    display: none;
+  }
+
+  .card_products {
+    border: 1px solid grey;
+    width: 300px;
+    margin: 30px;
+  }
+  .lorem{
+    height: 60%;
+  }
+  .people_swip{
+    height: 300px;
+  }
+  .savannah p{
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .produce_card img{
+    width: 70%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px){
+  .space{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 720px) {
 
 
-  @media screen and (max-width: 400px){
-    .wrapper nav{
-      padding: 0 10px;
-    }
-    .content .logo a{
-      font-size: 27px;
-    }
-    .wrapper .search-box{
-      max-width: calc(100% - 70px);
-    }
-    .wrapper .search-box .go-icon{
-      width: 30px;
-      right: 0;
-    }
-    .wrapper .search-box input{
-      padding-right: 30px;
-    }
-    .canon{
-        margin-left: 15%;
-    }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next,
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    display: hidden;
+  }
+
+  .canon_btn button:nth-child(1),
+  .canon_btn button:nth-child(2) {
+    width: 150px;
+  }
+
+  .card_speaker {
+    width: 70%;
+    height: 200px;
+    display: block;
 
   }
+
+  .card_speaker img {
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .card_speaker_p {
+    margin-top: 0px;
+  }
+
+  .card1,
+  .card2 {
+    display: none;
+  }
+
+  .product3 {
+    display: none;
+  }
+
+  .sale button,
+  input {
+    width: 40%;
+  }
+
+  .sale p {
+    font-size: 30px;
+  }
+
+  .deep_swip {
+    height: 600px;
+  }
+
+  .deep_p {
+    margin-top: -90px;
+    text-align: center;
+  }
+
+  .jbl {
+    padding-bottom: 150px;
+    display: block;
+  }
+
+  .deep_game {
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: block;
+    height: 370px;
+    padding-left: 25%;
+  }
+  .s2{
+    display: none;
+  }
+  .people_swip{
+    height: 80%;
+    padding-bottom: 10px;
+  }
+  .lorem {
+    height: 70%;
+  }
+  .produce_p{
+    width: 70%;
+    margin-left: 15%;
+
+  }
+  .produce_p button{
+    width: 100%;
+
+  }
+  .pc1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .deep_game {
+    padding-left: 15%;
+  }
+
+  .jbl_bar {
+    width: 80%;
+    margin-top: 100px;
+  }
+  .wirles{
+    margin-top: 50px;
+  }
+  .savannah img{
+    width: 50px;
+    height: 50px;
+  }
+  .savannah p {
+    margin-top: 10px;
+  }
+  .space{
+    height: 520px;
+  }
+  .space img{
+    width: 50%;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper nav {
+    padding: 0 10px;
+  }
+
+  .content .logo a {
+    font-size: 27px;
+  }
+
+  .wrapper .search-box {
+    max-width: calc(100% - 70px);
+  }
+
+  .wrapper .search-box .go-icon {
+    width: 30px;
+    right: 0;
+  }
+
+  .wrapper .search-box input {
+    padding-right: 30px;
+  }
+
+  .canon_btn button:nth-child(1),
+  .canon_btn button:nth-child(2) {
+    width: 100px;
+
+  }
+
+  .button_popular_products {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .button_popular_products button {
+    display: block;
+    width: 90%;
+  }
+
+  .popular_products p {
+    font-size: 20px;
+    margin-left: 5%;
+  }
+
+  .card_products {
+    border: 1px solid grey;
+    width: 90%;
+
+  }
+
+  .sale p {
+    font-size: 25px;
+  }
+
+  .deep_game {
+    height: 72%;
+
+  }
+
+  .img_product {
+    width: 70%;
+    height: auto;
+  }
+
+  .wirles1 {
+    font-size: 18px;
+    width: 100px;
+  }
+
+  .jbl_bar {
+    width: 80%;
+  }
+  .deep_btn button {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .deep_button button:nth-child(1) {
+    width: 150px;
+  }
+  .delivery p{
+    width: auto;
+  }
+  .delivery{
+    display: block;
+  }
+  .delivery img{
+    width: 40px;
+    height: 40px;
+   }
+   .free_delivery{
+    height: 550px;
+   }
+   .s1{
+    display: none;
+   }
+   .people_swip{
+     height: 100%;
+    }
+    .lorem{
+      height: 70%;
+    }
+}
+
+@media screen and (max-width: 250px) {
+  .sale p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
