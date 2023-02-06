@@ -66,28 +66,33 @@
     margin-left: 0px;
     margin-top: 10px;
   }
-  .free_delivery{
+
+  .free_delivery {
     display: block;
     height: 400px;
-    padding-top:10px;
+    padding-top: 10px;
   }
-  
-  .delivery img{
+
+  .delivery img {
     width: 70px;
     height: 70px;
-   }
-   .space{
+  }
+
+  .space {
     height: 250px;
   }
-  .produce_card{
+
+  .produce_card {
     display: block;
     text-align: center;
     padding-right: 2%;
     padding-left: 2%;
   }
-  .produce_p{
+
+  .produce_p {
     width: 90%;
   }
+
 }
 
 
@@ -199,23 +204,41 @@
     width: 300px;
     margin: 30px;
   }
-  .lorem{
+
+  .lorem {
     height: 60%;
   }
-  .people_swip{
+
+  .people_swip {
     height: 300px;
   }
-  .savannah p{
+
+  .savannah p {
     font-size: 13px;
     margin-left: 10px;
   }
-  .produce_card img{
+
+  .produce_card img {
     width: 70%;
     height: auto;
   }
+  .subscribe p {
+    font-size: 20px;
+  }
+  .subscribe{
+    height: 250px;
+
+  }
+  .call p {
+    font-size: 15px;
+  }
+  footer{
+    height: 650px;
+  }
 }
-@media screen and (max-width: 800px){
-  .space{
+
+@media screen and (max-width: 800px) {
+  .space {
     height: 350px;
   }
 }
@@ -293,28 +316,59 @@
     height: 370px;
     padding-left: 25%;
   }
-  .s2{
+
+  .s2 {
     display: none;
   }
-  .people_swip{
+
+  .people_swip {
     height: 80%;
     padding-bottom: 10px;
   }
+
   .lorem {
     height: 70%;
   }
-  .produce_p{
+
+  .produce_p {
     width: 70%;
     margin-left: 15%;
 
   }
-  .produce_p button{
+
+  .produce_p button {
     width: 100%;
 
   }
-  .pc1{
+
+  .pc1 {
     display: none;
   }
+  .subscribe{
+    display: block;
+    justify-content: none;
+  }
+  .s_input input{
+    margin-top: 20px;
+  }
+  .call{
+    margin-top: 30px;
+    margin-left: -50px;
+  }
+  .footer {
+    margin-top: 40px;
+    display: block;
+    justify-content: none;
+  }
+  footer{
+    height: 1200px;
+  }
+  .find_product p,
+.get_help p,
+.about_us p {
+  margin-top: 30px;
+}
+
 }
 
 @media screen and (max-width: 500px) {
@@ -326,23 +380,28 @@
     width: 80%;
     margin-top: 100px;
   }
-  .wirles{
+
+  .wirles {
     margin-top: 50px;
   }
-  .savannah img{
+
+  .savannah img {
     width: 50px;
     height: 50px;
   }
+
   .savannah p {
     margin-top: 10px;
   }
-  .space{
+
+  .space {
     height: 520px;
   }
-  .space img{
+
+  .space img {
     width: 50%;
   }
-  
+
 }
 
 @media screen and (max-width: 400px) {
@@ -416,36 +475,55 @@
   .jbl_bar {
     width: 80%;
   }
+
   .deep_btn button {
     width: 50px;
     height: 50px;
     font-size: 15px;
   }
+
   .deep_button button:nth-child(1) {
     width: 150px;
   }
-  .delivery p{
+
+  .delivery p {
     width: auto;
   }
-  .delivery{
+
+  .delivery {
     display: block;
   }
-  .delivery img{
+
+  .delivery img {
     width: 40px;
     height: 40px;
-   }
-   .free_delivery{
+  }
+
+  .free_delivery {
     height: 550px;
-   }
-   .s1{
+  }
+
+  .s1 {
     display: none;
-   }
-   .people_swip{
-     height: 100%;
-    }
-    .lorem{
-      height: 70%;
-    }
+  }
+
+  .people_swip {
+    height: 100%;
+  }
+
+  .lorem {
+    height: 70%;
+  }
+  .s_input input{
+    width: 200px;
+  }
+  .s_input span{
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .subscribe{
+    height: 30%;
+  }
 }
 
 @media screen and (max-width: 250px) {

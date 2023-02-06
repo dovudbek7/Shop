@@ -14,8 +14,8 @@ let swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   slidesPerView: 4,
-    
-      
+
+
 });
 let swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 30,
