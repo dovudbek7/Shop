@@ -422,7 +422,8 @@
     justify-content: none;
   }
   footer{
-    height: 1200px;
+    height: fit-content;
+    padding-bottom: 20px;
   }
   .find_product p,
 .get_help p,
