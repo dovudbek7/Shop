@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
@@ -32,59 +34,71 @@ swiper-slide {
 </head>
 <body>
  
-   <div class="wrapper">
-    <nav>
-      <input type="checkbox" id="show-search">
-      <input type="checkbox" id="show-menu">
-      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-      <div class="content">
-      <div class="logo"><a href="#">    
-        <img src="../img/electon.png" alt="">
-        </a></div>
-        <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li>
-            <a href="#" class="desktop-link">Catalog</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Features</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li><a href="#">Drop Menu 4</a></li>
+  <header>
+    <div class="container">
+        <div class="before_heading">
+            <p class="before_heading-p">Need help? Call us: (+98) 0234 456 789</p>
+            <div class="before_heading-div">
+                <a href="#">
+                    <p class="before_heading-p"><i class="fa-solid fa-location-dot before_heading-icon"></i>Our
+                        store</p>
+                </a>
+                <a href="./order.html">
+                    <p class="before_heading-p"><i class="fa-solid fa-truck before_heading-icon"></i>Track your
+                        order</p>
+                </a>
+            </div>
+        </div>
+        <div class="header_wrapper">
+            <a href="./index.html"><img src="../img/site-logo.svg" alt="site-logo" class="site-logo"></a>
+            <ul class="menu">
+                <li class="nav-item"><i class="fa-solid fa-user header_wrapper-icon"></i><a href="#"
+                        class="nav_link">Sign in</a></li>
+                <li class="nav-item"><i class="fa-solid fa-heart header_wrapper-icon"><span>1</span></i><a href="#"
+                        class="nav_link">Favorite</a></li>
+                <li class="nav-item"><i class="fa-solid fa-cart-shopping header_wrapper-icon"><span>1</span></i><a
+                        href="../cart/cart.html" class="nav_link">Cart</a>
+                </li>
+                <li class="nav-item modal_wrapper-icon"><i
+                        class="fa-solid fa-magnifying-glass header_wrapper-icon "></i><a href="#"
+                        class="nav_link">Search</a>
+                </li>
             </ul>
-          </li>
-          <li>
-            <a href="#" class="desktop-link">Blog</a>
-            <input type="checkbox" id="show-services">
-            <label for="show-services">Services</label>
-            <ul>
-              <li><a href="#">Drop Menu 1</a></li>
-              <li><a href="#">Drop Menu 2</a></li>
-              <li><a href="#">Drop Menu 3</a></li>
-              <li>
-                <a href="#" class="desktop-link">More Items</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">More Items</label>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </div>
-      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
-      <form action="#" class="search-box">
-        <input type="text" placeholder="Type Something to Search..." required>
-        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-      </form>
-    </nav>
-  </div>
+            <div class="toggle_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="category_wrapper">
+            <p class="category_wrapper-browse-categories">Browse categories <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <div class="category_wrapper-inner">
+                <p class="category_wrapper-actions">Home <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="category_wrapper-actions">Catalog <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="category_wrapper-actions">Blog</p>
+                <p class="category_wrapper-actions">Pages <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="category_wrapper-actions">About us</p>
+            </div>
+            <p class="category_wrapper-free-trial">30 Days Free Return</p>
+        </div>
+    </div>
+</header>
+<!-- Modal Start -->
+<div class="modal_wrapper">
+    <div class="modal">
+        <div class="search_box">
+            <input type="text" class="search_box-input" placeholder="Search any thing...">
+            <a href="./product.html"><button class="search_box-btn">Search</button></a>
+        </div>
+        <div class="search_box-icon modal_wrapper-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
 
 
 

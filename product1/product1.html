@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="product1.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+   
+      
+  <header>
+    <div class="container">
+        <div class="before_heading">
+            <p class="before_heading-p">Need help? Call us: (+98) 0234 456 789</p>
+            <div class="before_heading-div">
+                <a href="#">
+                    <p class="before_heading-p"><i class="fa-solid fa-location-dot before_heading-icon"></i>Our
+                        store</p>
+                </a>
+                <a href="./order.html">
+                    <p class="before_heading-p"><i class="fa-solid fa-truck before_heading-icon"></i>Track your
+                        order</p>
+                </a>
+            </div>
+        </div>
+        <div class="header_wrapper">
+            <a href="./index.html"><img src="../img/site-logo.svg" alt="site-logo" class="site-logo"></a>
+            <ul class="menu">
+                <li class="nav-item"><i class="fa-solid fa-user header_wrapper-icon"></i><a href="#"
+                        class="nav_link">Sign in</a></li>
+                <li class="nav-item"><i class="fa-solid fa-heart header_wrapper-icon"><span>1</span></i><a href="#"
+                        class="nav_link">Favorite</a></li>
+                <li class="nav-item"><i class="fa-solid fa-cart-shopping header_wrapper-icon"><span>1</span></i><a
+                        href="./cart.html" class="nav_link">Cart</a>
+                </li>
+                <li class="nav-item modal_wrapper-icon"><i
+                        class="fa-solid fa-magnifying-glass header_wrapper-icon "></i><a href="#"
+                        class="nav_link">Search</a>
+                </li>
+            </ul>
+            <div class="toggle_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="category_wrapper">
+            <p class="category_wrapper-browse-categories">Browse categories <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <div class="category_wrapper-inner">
+                <p class="category_wrapper-actions">Home <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="category_wrapper-actions">Catalog <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="category_wrapper-actions">Blog</p>
+                <p class="category_wrapper-actions">Pages <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="category_wrapper-actions">About us</p>
+            </div>
+            <p class="category_wrapper-free-trial">30 Days Free Return</p>
+        </div>
+    </div>
+</header>
+<!-- Modal Start -->
+<div class="modal_wrapper">
+    <div class="modal">
+        <div class="search_box">
+            <input type="text" class="search_box-input" placeholder="Search any thing...">
+            <a href="./product.html"><button class="search_box-btn">Search</button></a>
+        </div>
+        <div class="search_box-icon modal_wrapper-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+      
+    <div class="all_categories">
+
+      <div class="left">
+
+        <div class="Categories">
+          <p>Categories</p>
+          <p><a href="">Reset</a></p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="1">
+            <label for="1">All categories</label>
+          </div>
+          <p>10</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="2">
+            <label for="2">Tablet</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="3">
+            <label for="3">Laptop</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="4">
+            <label for="4">Headphones</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="5">
+            <label for="5">Console</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="6">
+            <label for="6">other</label>
+          </div>
+          <p>5</p>
+        </div>
+        <hr>
+        <div class="Categories">
+          <p>Avaliability</p>
+          <p><a href="">Reset</a></p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="7">
+            <label for="7">In stock</label>
+          </div>
+          <p>5</p>
+        </div>
+        <hr>
+        <div class="Categories">
+          <p>Product type</p>
+          <p><a href="">Reset</a></p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="8">
+            <label for="8">Smart-watch</label>
+          </div>
+          <p>5</p>
+        </div>
+        <hr>
+        <div class="Categories">
+          <p>Brand</p>
+          <p><a href="">Reset</a></p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="9">
+            <label for="9">Smart-watch</label>
+          </div>
+          <p>5</p>
+        </div>
+        <hr>
+
+        <div class="Categories">
+          <p>Color</p>
+          <p><a href="">Reset</a></p>
+        </div>
+        <div class="colors">
+          <div class="" style="background-color: yellow;"></div>
+          <div class="" style="background-color: red;"></div>
+          <div class="" style="background-color: blue;"></div>
+          <div class="" style="background-color: grey;"></div>
+          <div class="" style="background-color: green;"></div>
+          <div class="" style="background-color: rgb(79, 79, 139);"></div>
+          <div class="" style="background-color: purple"></div>
+          <div class="" style="background-color: brown"></div>
+          <div class="" style="background-color: rgb(0, 85, 0)"></div>
+        </div>
+
+
+        <div class="Categories">
+          <p>Size</p>
+          <p><a href="">Reset</a></p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="10">
+            <label for="10">M</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="11">
+            <label for="11">S</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="12">
+            <label for="12">X</label>
+          </div>
+          <p>5</p>
+        </div>
+        <div class="input_c">
+          <div class="">
+            <input type="checkbox" name="" id="13">
+            <label for="13">XX</label>
+          </div>
+          <p>5</p>
+        </div>
+        <hr>
+      </div>
+
+
+
+
+
+      <div class="right">
+       <div class="three">
+        <div class="cart" >
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/wirless.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c2">
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/play_game2.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c1">
+          <div class="">
+            <a href="http://127.0.0.1:5501/order/order.html">
+              <center>
+                <img src="../img/5 1.png" alt="">
+              </center>
+              <p>Tablet as a laptop</p>
+              <br>
+              <s>$11,70</s>
+              <br>
+              <img class="star" src="../img/Frame 26.svg" alt="">
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="three">
+        <div class="cart" >
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/wirless.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c2">
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/play_game2.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c1">
+          <div class="">
+            <a href="http://127.0.0.1:5501/order/order.html">
+              <center>
+                <img src="../img/5 1.png" alt="">
+              </center>
+              <p>Tablet as a laptop</p>
+              <br>
+              <s>$11,70</s>
+              <br>
+              <img class="star" src="../img/Frame 26.svg" alt="">
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="three">
+        <div class="cart" >
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/wirless.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c2">
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/play_game2.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c1">
+          <div class="">
+            <a href="http://127.0.0.1:5501/order/order.html">
+              <center>
+                <img src="../img/5 1.png" alt="">
+              </center>
+              <p>Tablet as a laptop</p>
+              <br>
+              <s>$11,70</s>
+              <br>
+              <img class="star" src="../img/Frame 26.svg" alt="">
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="three">
+        <div class="cart" >
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/wirless.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c2">
+          <a href="http://127.0.0.1:5501/order/order.html">
+            <center>
+              <img src="../img/play_game2.png" alt="">
+            </center>
+            <p>Tablet as a laptop</p>
+            <br>
+            <s>$11,70</s>
+            <br>
+            <img class="star" src="../img/Frame 26.svg" alt="">
+          </a>
+        </div>
+        <div class="cart c1">
+          <div class="">
+            <a href="http://127.0.0.1:5501/order/order.html">
+              <center>
+                <img src="../img/5 1.png" alt="">
+              </center>
+              <p>Tablet as a laptop</p>
+              <br>
+              <s>$11,70</s>
+              <br>
+              <img class="star" src="../img/Frame 26.svg" alt="">
+            </a>
+          </div>
+        </div>
+       </div>
+
+
+
+
+      </div>
+
+
+    </div>
+
+
+    <div class="sale">
+      <center>
+        <img src="../img/komp.png" alt="">
+      </center>
+      <div class="laptop_sale">
+        <center>
+        <button>New laptop</button>
+        <p>Sale up to 50% off</p>
+        <span>12 inch hd display</span>
+        <br>
+        <input type="button" value="Shop now">
+        </center>
+      </div>
+      </div>
+
+
+
+
+
+
+    
+    
+    
+    <footer>
+        <div class="subscribe">
+          <p>Subscribe newsletter</p>
+          <div class="s_input">
+            <input type="email" name="" id="" placeholder="Email address">
+            <p><span class="material-symbols-outlined">send</span></p>
+          </div>
+          <div class="call">
+            <span class="material-symbols-outlined">headphones</span>
+            <p>Call us 24/7 : <br>(+62) 0123 567 789</p>
+          </div>
+        </div>
+      
+        <div class="footer">
+          <div class="elcton">
+            <img src="../img/electon.png" alt="">
+            <p>64 st james boulevard hoswick , ze2 7zj</p>
+            <hr>
+            <a href=""><i class='bx bxl-google'></i></a>
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-whatsapp'></i></a>
+          </div>
+          <div class="find_product">
+            <p>Find product</p>
+            <ul>
+              <li><a href="">Brownze arnold</a></li>
+              <li><a href="">Chronograph blue</a></li>
+              <li><a href="">Smart phones</a></li>
+              <li><a href="">Automatic watch</a></li>
+              <li><a href="">Hair straighteners</a></li>
+            </ul>
+          </div>
+          <div class="get_help">
+            <p>Get help</p>
+            <ul>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">Return policy</a></li>
+              <li><a href="">Privacy policy</a></li>
+              <li><a href="">Payment policy</a></li>
+            </ul>
+          </div>
+          <div class="about_us">
+            <p>About us</p>
+            <ul>
+              <li><a href="">News</a></li>
+              <li><a href="">Service</a></li>
+              <li><a href="">Our policy</a></li>
+              <li><a href="">Custmer care </a></li>
+              <li><a href="">Faq's</a></li>
+            </ul>
+          </div>
+        </div>
+      <br>
+      </footer>
+      <script src="product1.js"></script>
+      <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/230354834940456"></script> -->
+</body>
+</html>
